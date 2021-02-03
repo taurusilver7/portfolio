@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Portfolio
+> Every developer needs their own space to showcase their skills. This is mine.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
