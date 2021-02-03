@@ -40,7 +40,11 @@ const Contact = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://drive.google.com/file/d/1K0Xy0Z9591c5Z_66x7xHnlAGa3kRNE7F/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   id="resume"
                   variant="outline-info"

@@ -65,12 +65,12 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="../../assets/portfolio.pdf"
+                      href="https://drive.google.com/file/d/1K0Xy0Z9591c5Z_66x7xHnlAGa3kRNE7F/view"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Button className="m-2" variant="outline-success">
-                        My Resume
+                        Resume
                       </Button>
                     </a>
                   </div>
