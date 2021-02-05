@@ -1,6 +1,6 @@
 # Portfolio
-> Every developer needs their own space to showcase their skills. This is mine.
 
+> Every developer needs their own space to showcase their skills. This is mine.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -20,6 +20,8 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+`"build": "CI= react-scripts build",`
 
 ### `npm run build`
 
