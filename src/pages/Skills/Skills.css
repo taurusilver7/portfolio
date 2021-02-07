@@ -1,37 +1,36 @@
 .focus {
-    transition: transform 0.3s;
-  }
-  
-  .focus:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-title {
-    font-size: 2em;
-    font-weight: 700;
-  }
-  
-  .image-style {
-    width: 3em;
-  }
-  
-  .font-details {
-    font-size: 3em;
-    font-weight: 500;
-    color: #231d5af8;
-  }
-  
-  .font-details-b {
-    font-size: 3em;
-    font-weight: 500;
-    color: #ffffff;
-  }
+  transition: transform 0.3s;
+}
 
-  #skills h1 {
-      color: black;
-  }
+.focus:hover {
+  transform: scale(1.05);
+}
 
-  span {
-      color: crimson;
-  }
-  
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#skills h1 {
+  color: black;
+}
+
+span {
+  color: crimson;
+}

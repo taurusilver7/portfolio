@@ -22,7 +22,7 @@ const Skills = () => {
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">
-                  Frontend
+                  Front<span>end</span>
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -54,7 +54,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Backend
+                  Back<span>end</span>
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -84,7 +84,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Hosting Platforms
+                  <span>Hosting</span> Platforms
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -116,7 +116,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Programming Languages
+                  <span>Programming</span> Languages
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -147,7 +147,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Database
+                  <span>Data</span>base
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -177,7 +177,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Version Control
+                  Version <span>Control</span>
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
