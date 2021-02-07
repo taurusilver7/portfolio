@@ -10,6 +10,7 @@ import Image from "react-bootstrap/Image";
 import L_COVID_19_TRACKER from "../../assets/img/projects/COVID-19 Tracker.webp";
 import L_SPOTIFY from "../../assets/img/projects/Spotify.webp";
 import L_ECOMMERCE from "../../assets/img/projects/e-commerce.webp";
+import L_SNAPCHAT from "../../assets/img/projects/snapchat.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -170,8 +171,8 @@ const MyTimeline = () => {
           {/* project- 2 */}
           <ImageEvent
             className="text-center"
-            text="Snapchat-clone"
-            src={L_COVID_19_TRACKER}
+            text="Snapchat-Clone"
+            src={L_SNAPCHAT}
             alt="Snapchat-Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
