@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4e57bf04.chunk.css",
-    "main.js": "/portfolio/static/js/main.ac6e513b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ac6e513b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a0e72aec.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a0e72aec.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.56e9e874.chunk.js": "/portfolio/static/js/2.56e9e874.chunk.js",
@@ -40,6 +40,7 @@
     "static/media/slide2.d58e7971.webp": "/portfolio/static/media/slide2.d58e7971.webp",
     "static/media/slide3.ea32b5ab.webp": "/portfolio/static/media/slide3.ea32b5ab.webp",
     "static/media/slide4.02e964a9.webp": "/portfolio/static/media/slide4.02e964a9.webp",
+    "static/media/snapchat.21e3b95b.webp": "/portfolio/static/media/snapchat.21e3b95b.webp",
     "static/media/spotify.ba8d9aeb.svg": "/portfolio/static/media/spotify.ba8d9aeb.svg",
     "static/media/stripe.166c9620.svg": "/portfolio/static/media/stripe.166c9620.svg",
     "static/media/styled-components.2e00d138.svg": "/portfolio/static/media/styled-components.2e00d138.svg"
@@ -48,6 +49,6 @@
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.56e9e874.chunk.js",
     "static/css/main.4e57bf04.chunk.css",
-    "static/js/main.ac6e513b.chunk.js"
+    "static/js/main.a0e72aec.chunk.js"
   ]
 }
