@@ -14,6 +14,7 @@ import L_ECOMMERCE from "../../assets/img/projects/e-commerce.webp";
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_LEAFLET from "../../assets/img/skills/leafletjs.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
@@ -166,12 +167,12 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project 2 */}
+          {/* project- 2 */}
           <ImageEvent
             className="text-center"
-            text="Spotify-Clone"
-            src={L_SPOTIFY}
-            alt="Spotify-Clone"
+            text="Snapchat-clone"
+            src={L_COVID_19_TRACKER}
+            alt="Snapchat-Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -187,18 +188,15 @@ const MyTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A Spotify clone created
-                        using react-js & material-ui with spotify-player-api to
-                        get a playlists, podcasts, fav songs.
+                        <strong>Description:</strong> A Snapchat clone to send
+                        snapshots powered by React, Redux, Material-UI with
+                        google authentication.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Get a user's playlists, podcasts, songs</li>
-                          <li>
-                            Powered by React and spotify-player-api &
-                            material-ui
-                          </li>
-                          <li>Respoisive Design</li>
+                          <li>Send snapshots using camera</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Fuly respoisive Design with material-ui</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -250,34 +248,23 @@ const MyTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                              React Router
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_SPOTIFY_API}
-                                alt="Spotify-player"
+                                src={L_GITHUB}
+                                alt="Github"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Spotify-Player
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Git"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Git
+                              Github
                             </span>
                           </li>
                         </ul>
@@ -288,13 +275,13 @@ const MyTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://spotify-clone-e1c40.web.app/"
+                  href="https://snapchat-clone-1388b.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/taurusilver7/spotify-clone"
+                  href="https://github.com/taurusilver7/snapchat-clone"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -432,6 +419,143 @@ const MyTimeline = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/taurusilver7/e-commerce"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project-4 */}
+          <ImageEvent
+            className="text-center"
+            text="Spotify-Clone"
+            src={L_SPOTIFY}
+            alt="Spotify-Clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A Spotify clone created
+                        using react-js & material-ui with spotify-player-api to
+                        get a playlists, podcasts, fav songs.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Get a user's playlists, podcasts, songs</li>
+                          <li>
+                            Powered by React and spotify-player-api &
+                            material-ui
+                          </li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_SPOTIFY_API}
+                                alt="Spotify-player"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Spotify-Player
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Git"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Git
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://spotify-clone-e1c40.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/spotify-clone"
                   target="_blank"
                 >
                   SOURCE CODE
