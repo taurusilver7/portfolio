@@ -11,6 +11,7 @@ import L_COVID_19_TRACKER from "../../assets/img/projects/COVID-19 Tracker.webp"
 import L_SPOTIFY from "../../assets/img/projects/Spotify.webp";
 import L_ECOMMERCE from "../../assets/img/projects/e-commerce.webp";
 import L_SNAPCHAT from "../../assets/img/projects/snapchat.webp";
+import L_NETFLIX from "../../assets/img/projects/netflix.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -25,6 +26,7 @@ import L_GITHUB from "../../assets/img/skills/github.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_SPOTIFY_API from "../../assets/img/skills/spotify.svg";
 import STRIPE from "../../assets/img/skills/stripe.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 
 const MyTimeline = () => {
   return (
@@ -168,7 +170,155 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project- 2 */}
+          {/* Project -2  */}
+          <ImageEvent
+            className="text-center"
+            text="Netflix-Clone"
+            src={L_NETFLIX}
+            alt="netflix-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A Netflix clone with
+                        login, sign-up & subscription features powered by react,
+                        redux & stripe
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            An exact copy of netflix with authorized sign-in &
+                            sign-up
+                          </li>
+                          <li>Powered by React and Redux</li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="Reacr-Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React-Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://netflix-clone-e379b.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/netflix-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project- 3 */}
           <ImageEvent
             className="text-center"
             text="Snapchat-Clone"
@@ -268,6 +418,17 @@ const MyTimeline = () => {
                               Github
                             </span>
                           </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -291,7 +452,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project- 3 */}
+          {/* project- 4 */}
           <ImageEvent
             className="text-center"
             text="E-Commerce Store"
@@ -428,7 +589,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project-4 */}
+          {/* project-5 */}
           <ImageEvent
             className="text-center"
             text="Spotify-Clone"
@@ -534,12 +695,23 @@ const MyTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_GIT}
+                                src={L_GITHUB}
                                 alt="Git"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Git
+                              Github
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
                             </span>
                           </li>
                         </ul>
