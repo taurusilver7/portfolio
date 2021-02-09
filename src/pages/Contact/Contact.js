@@ -39,9 +39,22 @@ const Contact = () => {
                 </Button>
               </a>
             </div>
+
             <div className="m-2">
               <a
-                href="https://drive.google.com/file/d/1K0Xy0Z9591c5Z_66x7xHnlAGa3kRNE7F/view"
+                href="https://www.instagram.com/taurusilver7/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-success" title="My other projects">
+                  <i className="fa fa-instagram"></i> Instagram
+                </Button>
+              </a>
+            </div>
+
+            <div className="m-2">
+              <a
+                href="https://drive.google.com/file/d/1cUPgZb2tmGJBzD9Z7YaqWY4vGWSEvFG9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

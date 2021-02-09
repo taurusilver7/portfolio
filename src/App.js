@@ -28,7 +28,7 @@ const App = () => {
               value: 40,
               density: {
                 enable: true,
-                value_area: 1200,
+                value_area: 1000,
               },
             },
             shape: {
