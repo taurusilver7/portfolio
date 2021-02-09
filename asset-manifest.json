@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.679c5ed1.chunk.css",
-    "main.js": "/portfolio/static/js/main.981eaf98.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.981eaf98.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.df9a17b0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df9a17b0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
-    "static/js/2.56e9e874.chunk.js": "/portfolio/static/js/2.56e9e874.chunk.js",
-    "static/js/2.56e9e874.chunk.js.map": "/portfolio/static/js/2.56e9e874.chunk.js.map",
+    "static/js/2.8133e8b4.chunk.js": "/portfolio/static/js/2.8133e8b4.chunk.js",
+    "static/js/2.8133e8b4.chunk.js.map": "/portfolio/static/js/2.8133e8b4.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.679c5ed1.chunk.css.map": "/portfolio/static/css/main.679c5ed1.chunk.css.map",
-    "static/js/2.56e9e874.chunk.js.LICENSE.txt": "/portfolio/static/js/2.56e9e874.chunk.js.LICENSE.txt",
+    "static/js/2.8133e8b4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8133e8b4.chunk.js.LICENSE.txt",
     "static/media/COVID-19 Tracker.a27bb89d.webp": "/portfolio/static/media/COVID-19 Tracker.a27bb89d.webp",
     "static/media/Pass photo.178f270d.webp": "/portfolio/static/media/Pass photo.178f270d.webp",
     "static/media/Spotify.b3976275.webp": "/portfolio/static/media/Spotify.b3976275.webp",
@@ -30,6 +30,7 @@
     "static/media/material-ui-1.fd510ed8.svg": "/portfolio/static/media/material-ui-1.fd510ed8.svg",
     "static/media/mongodb.d89a6eeb.svg": "/portfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/mssql.18f84630.svg": "/portfolio/static/media/mssql.18f84630.svg",
+    "static/media/netflix.6607f1d3.webp": "/portfolio/static/media/netflix.6607f1d3.webp",
     "static/media/nodejs.52cbf9a8.svg": "/portfolio/static/media/nodejs.52cbf9a8.svg",
     "static/media/python.e6d7dc73.svg": "/portfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
@@ -47,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
-    "static/js/2.56e9e874.chunk.js",
+    "static/js/2.8133e8b4.chunk.js",
     "static/css/main.679c5ed1.chunk.css",
-    "static/js/main.981eaf98.chunk.js"
+    "static/js/main.df9a17b0.chunk.js"
   ]
 }
