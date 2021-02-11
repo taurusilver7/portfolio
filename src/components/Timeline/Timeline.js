@@ -319,9 +319,8 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project- 3 */}
 
-          {/* project- 4 */}
+          {/* project- 3 */}
           <ImageEvent
             className="text-center"
             text="E-Commerce Store"
@@ -595,9 +594,9 @@ const MyTimeline = () => {
           {/* project - 5 */}
           <ImageEvent
             className="text-center"
-            text="Snapchat-Clone"
+            text="Airbnb-Clone"
             src={L_AIRBNB}
-            alt="Snapchat-Clone"
+            alt="Airbnb-Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
