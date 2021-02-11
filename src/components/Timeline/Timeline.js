@@ -12,7 +12,7 @@ import L_SPOTIFY from "../../assets/img/projects/Spotify.webp";
 import L_ECOMMERCE from "../../assets/img/projects/e-commerce.webp";
 import L_SNAPCHAT from "../../assets/img/projects/snapchat.webp";
 import L_NETFLIX from "../../assets/img/projects/netflix.webp";
-import L_AIRBNB from "../../assets/img/project/airbnb.webp";
+import L_AIRBNB from "../../assets/img/projects/airbnb.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
