@@ -2,6 +2,19 @@
 
 > Every developer needs their own space to showcase their skills. This is mine.
 
+<p align="center">
+    <img src="./src/assets/img/profile/Carousel.png" alt="preview">
+</p>
+
+## Components
+
+* Home (Navbar, carousel, TitleGreeting)
+* About (about page)
+* skills (skills page)
+* work (projects page & timeline component)
+* Contact (contact page)
+* Footer 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
