@@ -8,11 +8,12 @@ import Image from "react-bootstrap/Image";
 
 // projects
 import L_COVID_19_TRACKER from "../../assets/img/projects/COVID-19 Tracker.webp";
-import L_SPOTIFY from "../../assets/img/projects/Spotify.webp";
+import L_TESLA from "../../assets/img/projects/tesla.webp";
 import L_ECOMMERCE from "../../assets/img/projects/e-commerce.webp";
 import L_SNAPCHAT from "../../assets/img/projects/snapchat.webp";
 import L_NETFLIX from "../../assets/img/projects/netflix.webp";
-import L_AIRBNB from "../../assets/img/projects/airbnb.webp";
+import L_HULU from "../../assets/img/projects/hulu.webp";
+import L_INSTAGRAM from "../../assets/img/projects/instagram.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -28,6 +29,8 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_SPOTIFY_API from "../../assets/img/skills/spotify.svg";
 import STRIPE from "../../assets/img/skills/stripe.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_EXPRESS from "../../assets/img/skills/express.svg";
 
 const MyTimeline = () => {
   return (
@@ -159,10 +162,167 @@ const MyTimeline = () => {
                   href="https://covid-19-tracker-4b76c.web.app/"
                   target="_blank"
                 >
-                  SEE LIVE
+                  DEPLOY
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/taurusilver7/covid-19-tracker"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project - INSTAGRAM Clone */}
+          <ImageEvent
+            className="text-center"
+            text="Instagram-MERN"
+            src={L_INSTAGRAM}
+            alt="Instagram"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A MERN stack instagram
+                        clone with upload & login functionality powered by
+                        React, Node & Mongodb
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>photo-video sharing service</li>
+                          <li>Powered by React, Node & MongoDB</li>
+                          <li>Respoisive Design</li>
+                          <li>image upload & authentication functionality</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="Mongodb"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://instagram-46c59.web.app/"
+                  target="_blank"
+                >
+                  DEPLOY
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/instagram-clone"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -307,7 +467,7 @@ const MyTimeline = () => {
                   href="https://netflix-clone-e379b.web.app/"
                   target="_blank"
                 >
-                  SEE LIVE
+                  DEPLOY
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/taurusilver7/netflix-clone"
@@ -318,7 +478,6 @@ const MyTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-
 
           {/* project- 3 */}
           <ImageEvent
@@ -342,8 +501,8 @@ const MyTimeline = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> A fully functional
-                        e-commerce web-store with a possible custom product list
-                        created using react, commerce-js & stripe-js.
+                        e-commerce web-store with a custom product list created
+                        using react, commerce-js & stripe-js.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -445,10 +604,152 @@ const MyTimeline = () => {
                   href="https://taurusilver7.github.io/e-commerce/"
                   target="_blank"
                 >
-                  SEE LIVE
+                  DEPLOY
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/taurusilver7/e-commerce"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project - 5 */}
+          <ImageEvent
+            className="text-center"
+            text="Tesla-Clone"
+            src={L_TESLA}
+            alt="Tesla-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An american e-vehicles &
+                        clean-energy company clone powered by React, Redux,
+                        Material-UI & hosted on firebase
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>customizable account pages</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Fuly respoisive Design with material-ui</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-ui"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://tesla-b5ec0.web.app/" target="_blank">
+                  DEPLOY
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/tesla-clone"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -579,7 +880,7 @@ const MyTimeline = () => {
                   href="https://snapchat-clone-1388b.web.app/"
                   target="_blank"
                 >
-                  SEE LIVE
+                  DEPLOY
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/taurusilver7/snapchat-clone"
@@ -591,144 +892,12 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project - 5 */}
-          <ImageEvent
-            className="text-center"
-            text="Airbnb-Clone"
-            src={L_AIRBNB}
-            alt="Airbnb-Clone"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> A Travel & hotel booking appliation powered by react, redux & matrial-ui.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>customize date & search features</li>
-                          <li>Powered by React and Redux</li>
-                          <li>Fuly respoisive Design with material-ui</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REDUX}
-                                alt="Redux"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Redux
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT_ROUTER}
-                                alt="React Router"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React Router
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GITHUB}
-                                alt="Github"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Github
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIREBASE}
-                                alt="Firebase"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Firebase
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://airbnb-d3030.web.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/taurusilver7/airbnb-clone"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
           {/* project-6 */}
           <ImageEvent
             className="text-center"
-            text="Spotify-Clone"
-            src={L_SPOTIFY}
-            alt="Spotify-Clone"
+            text="Hulu-Clone"
+            src={L_HULU}
+            alt="Hulu-Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -744,18 +913,17 @@ const MyTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A Spotify clone created
-                        using react-js & material-ui with spotify-player-api to
-                        get a playlists, podcasts, fav songs.
+                        <strong>Description:</strong> An american subscription
+                        video on demand service clone powered by React, Redux,
+                        Bootstrap & Material-UI. A fully front-end development.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Get a user's playlists, podcasts, songs</li>
+                          <li>Get a user's movies, tv series & prgrams.</li>
+                          <li>categorizing movies based on genre & theme</li>
                           <li>
-                            Powered by React and spotify-player-api &
-                            material-ui
+                            Respoisive Design using Material-UI & Bootstrap
                           </li>
-                          <li>Respoisive Design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -802,6 +970,17 @@ const MyTimeline = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Bootstrap
                             </span>
                           </li>
                           <li>
@@ -813,17 +992,6 @@ const MyTimeline = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               Material-UI
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_SPOTIFY_API}
-                                alt="Spotify-player"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Spotify-Player
                             </span>
                           </li>
                           <li>
@@ -855,14 +1023,11 @@ const MyTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://spotify-clone-e1c40.web.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
+                <UrlButton href="https://hulu-76c9b-web-app/" target="_blank">
+                  DEPLOY
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/taurusilver7/spotify-clone"
+                  href="https://github.com/taurusilver7/hulu-clone"
                   target="_blank"
                 >
                   SOURCE CODE
