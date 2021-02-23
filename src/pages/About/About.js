@@ -31,10 +31,11 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hello! I am <strong>&nbsp;Devi Prasad</strong>
-                <br />A passionate programmer, born and brought up in India. I
-                am a Front-End Web Developer with{" "}
-                <span>Javascript, React.js & Redux</span>
-                as main stack.
+                <br />A passionate programmer, born and brought up in India.
+                <br /> I am a Full-stack Web Developer with MERN as my main
+                stack. I use Javascript, React.js & Redux for front-end &
+                Node-js, Express-js as back-end. I'm familiar with using MongoDB
+                & mongoose for ODM.
                 <br />
                 In 2018, I successfully completed my Engineering with
                 specialization in 'Electrical and Electronics'.
@@ -65,7 +66,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1K0Xy0Z9591c5Z_66x7xHnlAGa3kRNE7F/view"
+                      href="https://drive.google.com/file/d/1cUPgZb2tmGJBzD9Z7YaqWY4vGWSEvFG9/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
