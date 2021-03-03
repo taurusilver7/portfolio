@@ -30,12 +30,12 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hello! I am <strong>&nbsp;Devi Prasad</strong>
+                Hello! I am <strong>&nbsp;Prasad..I'm</strong>
                 <br />A passionate programmer, born and brought up in India.
                 <br /> I am a Full-stack Web Developer with MERN as my main
-                stack. I use Javascript, React.js & Redux for front-end &
-                Node-js, Express-js as back-end. I'm familiar with using MongoDB
-                & mongoose for ODM.
+                stack. I'm very intrested in web & mobile application
+                development.
+                <br />
                 <br />
                 In 2018, I successfully completed my Engineering with
                 specialization in 'Electrical and Electronics'.
@@ -43,13 +43,13 @@ const About = () => {
                 <br />
                 I have a passion for coding and challenging myself creatively.
                 Using a minimalist asthetic, I create simle responsive websites
-                with a whimsical twist. I enjoy learning new skills daily, and
-                staying connected, and involved with my fellow developers.
+                with a whimsical twist.
                 <br />
                 <br />
                 I love learning about new things, especially tech which solve
                 burning problems with minimum resources to build better and
                 scalable products.
+                <br />
                 <br />
                 Working with the clients, my goal is always driven towards
                 providing amazing experience with the best quality and service
