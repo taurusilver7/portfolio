@@ -14,6 +14,9 @@ import L_SNAPCHAT from "../../assets/img/projects/snapchat.webp";
 import L_NETFLIX from "../../assets/img/projects/netflix.webp";
 import L_HULU from "../../assets/img/projects/hulu.webp";
 import L_INSTAGRAM from "../../assets/img/projects/instagram.webp";
+import L_LINKEDIN from "../../assets/img/projects/linkedin.webp";
+import L_WHATSAPP from "../../assets/img/projects/whatsapp.webp";
+import L_SLACK from "../../assets/img/projects/slack.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -26,7 +29,7 @@ import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_GITHUB from "../../assets/img/skills/github.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
-import L_SPOTIFY_API from "../../assets/img/skills/spotify.svg";
+import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import STRIPE from "../../assets/img/skills/stripe.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
@@ -174,7 +177,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project - INSTAGRAM Clone */}
+          {/* project-2 - INSTAGRAM Clone */}
           <ImageEvent
             className="text-center"
             text="Instagram-MERN"
@@ -278,6 +281,17 @@ const MyTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
                                 src={L_MATERIALUI}
                                 alt="Material-UI"
                                 rounded
@@ -331,7 +345,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* Project -2  */}
+          {/* Project -3  */}
           <ImageEvent
             className="text-center"
             text="Netflix-Clone"
@@ -479,7 +493,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project- 3 */}
+          {/* project- 4 */}
           <ImageEvent
             className="text-center"
             text="E-Commerce Store"
@@ -617,6 +631,464 @@ const MyTimeline = () => {
           </ImageEvent>
 
           {/* project - 5 */}
+          <ImageEvent
+            className="text-center"
+            text="LinkedIn-Clone"
+            src={L_LINKEDIN}
+            alt="Linkedin-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A react-redux powered
+                        American bussiness & employment-oriented media service
+                        application hosted on firebase.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>customizable account pages</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Fully functional & authorized</li>
+                          <li>Fuly respoisive Design with material-ui</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-ui"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://linkedin-1cdc3.web.app/"
+                  target="_blank"
+                >
+                  DEPLOY
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/linkedIn-Clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project-6 */}
+          <ImageEvent
+            className="text-center"
+            text="Slack-Clone"
+            src={L_SLACK}
+            alt="Slack-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A react-redux powered
+                        proprietary business communication platform for private,
+                        group & direct messaging. application hosted on
+                        firebase.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Direct & group chats</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Fully functional & authorized</li>
+                          <li>Fuly respoisive Design with styled-components</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STYLED_COMPONENTS}
+                                alt="Styed-Components"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Styled-Components
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://slack-28797.web.app/" target="_blank">
+                  DEPLOY
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/slack-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* project-7 */}
+          <ImageEvent
+            className="text-center"
+            text="Whatsapp-MERN"
+            src={L_WHATSAPP}
+            alt="Whatsapp-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> The message service
+                        application powered by react on front-end,
+                        node-express-js on back-end & real-time with mongodb &
+                        pusher, hosted on firebase.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Separate Rooms for induvidual & group chats</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Fuly respoisive Design with material-ui & BEM</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material-ui"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material-UI
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB}
+                                alt="Github"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://whatsapp-14fc6.web.app/"
+                  target="_blank"
+                >
+                  DEPLOY
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/taurusilver7/whatsapp-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project-8 */}
           <ImageEvent
             className="text-center"
             text="Tesla-Clone"
@@ -758,7 +1230,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* Project-4 */}
+          {/* Project-9 */}
           <ImageEvent
             className="text-center"
             text="Snapchat-Clone"
@@ -892,7 +1364,7 @@ const MyTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* project-6 */}
+          {/* project-10 */}
           <ImageEvent
             className="text-center"
             text="Hulu-Clone"
