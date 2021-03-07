@@ -42,6 +42,22 @@ const Contact = () => {
 
             <div className="m-2">
               <a
+                href="https://www.linkedin.com/in/devi-prasad-palakollu-3ab7b5141/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  id="resume"
+                  variant="outline-primary"
+                  title="Lets code together!"
+                >
+                  Linked<i className="fa fa-linkedin"></i>
+                </Button>
+              </a>
+            </div>
+
+            <div className="m-2">
+              <a
                 href="https://www.instagram.com/taurusilver7/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -63,7 +79,7 @@ const Contact = () => {
                   variant="outline-info"
                   title="Lets code together!"
                 >
-                  <i class="fa fa-envelope-o"></i> Resume
+                  <i className="fa fa-envelope-o"></i> Resume
                 </Button>
               </a>
             </div>
