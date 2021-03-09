@@ -46,12 +46,24 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <Button variant="outline-primary" title="Lets code together!">
+                  Linked<i className="fa fa-linkedin"></i>
+                </Button>
+              </a>
+            </div>
+
+            <div className="m-2">
+              <a
+                href="https://taurusilver-7.web.app/#portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
-                  id="resume"
-                  variant="outline-primary"
+                  id=""
+                  variant="outline-secondary"
                   title="Lets code together!"
                 >
-                  Linked<i className="fa fa-linkedin"></i>
+                  <i className="fa fa-link">Clones</i>
                 </Button>
               </a>
             </div>
@@ -70,7 +82,7 @@ const Contact = () => {
 
             <div className="m-2">
               <a
-                href="https://drive.google.com/file/d/1cUPgZb2tmGJBzD9Z7YaqWY4vGWSEvFG9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1PqVB0O9N4hGdO6yAMghn5kjez4ZF8Swi/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
