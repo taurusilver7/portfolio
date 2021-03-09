@@ -32,12 +32,12 @@ const App = () => {
               },
             },
             shape: {
-              type: 'circle',
+              type: "circle",
               stroke: {
                 width: 6,
-                color: '#f9ab00'
-              }
-            }
+                color: "#f9ab00",
+              },
+            },
           },
         }}
       />
@@ -54,7 +54,7 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Fade duration={400}>
                 <About />
               </Fade>
             </Container>
@@ -63,21 +63,21 @@ const App = () => {
       </div>
 
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={400}>
           <hr />
           <Skills />
         </Slide>
       </Container>
 
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={400}>
           <hr />
           <MyTimeline />
         </Slide>
       </Container>
 
       <Container className="container-box rounded">
-        <Fade duration={500}>
+        <Fade duration={400}>
           <hr />
           <Contact />
         </Fade>
