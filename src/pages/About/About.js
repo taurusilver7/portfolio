@@ -56,11 +56,12 @@ const About = () => {
                 to them.
                 <br />
                 <br />
+                Here are the list of the clones I've so far..
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="#contact">
+                    <a href="https://taurusilver-7.web.app/#portfolio">
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                        Clones
                       </Button>
                     </a>
                   </div>
