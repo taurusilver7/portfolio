@@ -23,21 +23,21 @@ const TitleMessage = styled.h1`
 
     .main {
       font-size: 50px;
-      color: white;
+      color: #fff;
       font-weight: 400;
     }
 
     .sub {
       font-size: 27px;
       letter-spacing: 2px;
-      color: crimson;
+      color: #fff;
       font-weight: 800;
     }
   }
   @media (max-width: 415px) {
-      strong {
-          font-size: 1em;
-      }
+    strong {
+      font-size: 1em;
+    }
   }
 `;
 
